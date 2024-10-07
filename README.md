@@ -29,9 +29,11 @@ Primarily, there are two different ways to set up an Omega Adventure Pack server
 
 ## Authors
 
-* **Erick** - *Modpack Creator* - [Info]()
+
 * **PowerHungryRing** - *Modpack Development Assistant* - [Info]()
-* **CyberStrawberry** - *Modpack Development Infrastructure & Deployment Assistant* - [Info]()
+
+
+Please install Traincraft into the mods folder as this was to big to put onto github https://www.curseforge.com/minecraft/mc-mods/traincraft/download/5083289
 
   
 
