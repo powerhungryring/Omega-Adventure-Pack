@@ -1,4 +1,4 @@
-Total amount of free biome ids: D:\technic\modpacks\ericks-insane-adventure-pack\config\AntiIDConflict\biomes\avaibleIDs.txt
+Total amount of free biome ids: D:\technic 2\modpacks\ericks-insane-adventure-pack\config\AntiIDConflict\biomes\avaibleIDs.txt
 List of free biome ids:
 64
 120

@@ -2,10 +2,10 @@
     "copper": {
         "template": "uniform",
         "block": "ThermalFoundation:Ore",
-        "clusterSize": 8,
+        "clusterSize": 18,
         "numClusters": 10,
-        "minHeight": 40,
-        "maxHeight": 75,
+        "minHeight": 20,
+        "maxHeight": 80,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [
@@ -20,8 +20,8 @@
     "tin": {
         "template": "uniform",
         "block": {"name": "ThermalFoundation:Ore", "metadata": 1},
-        "clusterSize": 8,
-        "numClusters": 8,
+        "clusterSize": 18,
+        "numClusters": 10,
         "minHeight": 20,
         "maxHeight": 55,
         "retrogen": "true",
@@ -41,7 +41,7 @@
             {"name": "ThermalFoundation:Ore", "metadata": 2, "weight":80},
             {"name": "ThermalFoundation:Ore", "metadata": 3, "weight":20}
         ],
-        "clusterSize": 8,
+        "clusterSize": 12,
         "numClusters": 6,
         "minHeight": 5,
         "maxHeight": 30,
@@ -62,8 +62,8 @@
             {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 90},
             {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 10}
         ],
-        "clusterSize": 8,
-        "numClusters": 8,
+        "clusterSize": 20,
+        "numClusters": 12,
         "minHeight": 10,
         "maxHeight": 35,
         "retrogen": "true",
@@ -102,8 +102,8 @@
             {"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 80},
             {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 20}
         ],
-        "clusterSize": 3,
-        "numClusters": 1,
+        "clusterSize": 4,
+        "numClusters": 2,
         "minHeight": 5,
         "maxHeight": 30,
         "retrogen": "true",
@@ -120,8 +120,8 @@
     "copperHigh": {
         "template": "uniform",
         "block": "ThermalFoundation:Ore",
-        "clusterSize": 8,
-        "numClusters": 8,
+        "clusterSize": 15,
+        "numClusters": 10,
         "minHeight": 48,
         "maxHeight": 96,
         "retrogen": "true",

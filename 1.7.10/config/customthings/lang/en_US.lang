@@ -1,5 +1,8 @@
 #records
-item.customthings.record.LikeBlock.name= Like a Block
+item.customthings.record.Aristotle.name= Aristotle
+item.record.customthings.Aristotle.desc=DJQuads - Anniversary Song @OG_Arist0tle
+item.customthings.record.Titan.name= Titan
+item.record.customthings.Titan.desc=DJQuads - OG Titans Remix
 
 #blocks
 tile.customthings.temperioessenceblock.name= Temperio Essence Block
@@ -9,13 +12,11 @@ tile.customthings.Gaia Block.name= Compressed Gaia
 tile.customthings.Pie Duck.name= Pie Duck
 tile.customthings.Chr0nick.name= Chr0nick
 tile.customthings.Erick.name= Erick
-tile.customthings.Firre.name= Firre
+tile.customthings.Hunter m13.name= Hunter m13
 tile.customthings.BelowTheEcho.name= BelowTheEcho
 tile.customthings.Dino Soup.name= Dino Soup
 tile.customthings.PowerHungryRing.name= PowerHungryRing
 tile.customthings.BeardedMexican4.name= BeardedMexican4
-tile.customthings.CyberStrawberry.name= CyberStrawberry
-tile.customthings.OmegaBlock.name= Omega Block
 
 #items
 item.temperioessence.name=Temperio Essence
@@ -42,10 +43,7 @@ item.electrotine_singularity.name=Electrotine Singularity
 item.titanium_singularity.name=Titanium Singularity
 item.epeolatry_singularitySword.name=Epeolatry Singularity Sword
 item.chaoscatalyst.name=Chaos Catalyst
-item.chaosingot.name=Omega Ingot
+item.chaosingot.name=Chaos Ingot
 item.electrotine_essence.name=Electrotine Essence
 item.thorium_rod.name=Thorium Rod
 item.uranium_rod.name=Uranium Rod
-item.minedollar.name=Mine Dollar
-
-

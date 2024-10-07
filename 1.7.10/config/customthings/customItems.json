@@ -97,11 +97,6 @@
 				"name": "uranium_rod",
 				"maxStackSize": 64,
 				"burnTime":0
-			},
-					{
-				"name": "minedollar",
-				"maxStackSize": 64,
-				"burnTime":0
 			}
 	]
 }

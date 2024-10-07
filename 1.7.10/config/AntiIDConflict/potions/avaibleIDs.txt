@@ -1,4 +1,4 @@
-Total amount of free potion ids: D:\technic\modpacks\ericks-insane-adventure-pack\config\AntiIDConflict\potions\avaibleIDs.txt
+Total amount of free potion ids: D:\technic 2\modpacks\ericks-insane-adventure-pack\config\AntiIDConflict\potions\avaibleIDs.txt
 List of free potion ids:
 36
 37

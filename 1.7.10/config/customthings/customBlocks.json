@@ -92,7 +92,7 @@
 			"drops": []
 		},
 {
-			"name": "Firre",
+			"name": "Hunter m13",
 			"type": "rock",
 			"shape": "normal",
 			"hardness": 0.3,
@@ -155,32 +155,6 @@
 			"toolType": "pickaxe",
 			"isOpaque": true,
 			"lightLevel": 0,
-			"maxStackSize": 64,
-			"drops": []
-		},
-		{
-			"name": "CyberStrawberry",
-			"type": "rock",
-			"shape": "normal",
-			"hardness": 0.3,
-			"resistance": 3.0,
-			"harvestLevel": 1,
-			"toolType": "pickaxe",
-			"isOpaque": true,
-			"lightLevel": 0,
-			"maxStackSize": 64,
-			"drops": []
-		},
-		{
-			"name": "OmegaBlock",
-			"type": "rock",
-			"shape": "normal",
-			"hardness": 0.3,
-			"resistance": 3.0,
-			"harvestLevel": 1,
-			"toolType": "pickaxe",
-			"isOpaque": true,
-			"lightLevel": 15,
 			"maxStackSize": 64,
 			"drops": []
 		}

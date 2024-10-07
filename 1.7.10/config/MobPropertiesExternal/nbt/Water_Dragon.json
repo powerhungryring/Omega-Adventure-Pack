@@ -1,0 +1,503 @@
+{
+  "_comment": "Auto-generated nbt function for Water Dragon",
+  "function": "all",
+  "count": "1.0~1.0",
+  "functions": [
+    {
+      "name": "ForgeData",
+      "function": "compound",
+      "tags": [
+        {
+          "name": "MP|Init",
+          "function": "byte",
+          "value": "1~1"
+        },
+        {
+          "name": "WITCInitialWidth",
+          "function": "float",
+          "value": "1.25~1.25"
+        },
+        {
+          "name": "sAI",
+          "function": "compound",
+          "tags": [
+            {
+              "name": "Fiddling",
+              "function": "byte",
+              "value": "0~0"
+            },
+            {
+              "name": "AvoidExplosions",
+              "function": "byte",
+              "value": "1~1"
+            },
+            {
+              "name": "DefendVillage",
+              "function": "byte",
+              "value": "0~0"
+            },
+            {
+              "name": "Griefing",
+              "function": "byte",
+              "value": "0~0"
+            },
+            {
+              "name": "uAI",
+              "function": "compound",
+              "tags": []
+            },
+            {
+              "name": "Rider",
+              "function": "byte",
+              "value": "0~0"
+            }
+          ]
+        },
+        {
+          "name": "WITCInitialHeight",
+          "function": "float",
+          "value": "1.9~1.9"
+        }
+      ]
+    },
+    {
+      "name": "isShrunk",
+      "function": "byte",
+      "value": "0~0"
+    },
+    {
+      "name": "Sitting",
+      "function": "byte",
+      "value": "0~0"
+    },
+    {
+      "name": "Attributes",
+      "function": "list",
+      "tags": [
+        {
+          "function": "compound",
+          "tags": [
+            {
+              "name": "Base",
+              "function": "double",
+              "value": "0.0~0.0"
+            },
+            {
+              "name": "Name",
+              "function": "string",
+              "value": "am2.maxManaBonus"
+            }
+          ]
+        },
+        {
+          "function": "compound",
+          "tags": [
+            {
+              "name": "Base",
+              "function": "double",
+              "value": "0.0~0.0"
+            },
+            {
+              "name": "Name",
+              "function": "string",
+              "value": "am2.maxBurnoutBonus"
+            }
+          ]
+        },
+        {
+          "function": "compound",
+          "tags": [
+            {
+              "name": "Base",
+              "function": "double",
+              "value": "1.0~1.0"
+            },
+            {
+              "name": "Name",
+              "function": "string",
+              "value": "am2.xpMultiplier"
+            }
+          ]
+        },
+        {
+          "function": "compound",
+          "tags": [
+            {
+              "name": "Base",
+              "function": "double",
+              "value": "1.0~1.0"
+            },
+            {
+              "name": "Name",
+              "function": "string",
+              "value": "am2.burnoutReduction"
+            }
+          ]
+        },
+        {
+          "function": "compound",
+          "tags": [
+            {
+              "name": "Base",
+              "function": "double",
+              "value": "1.0~1.0"
+            },
+            {
+              "name": "Name",
+              "function": "string",
+              "value": "am2.manaRegenModifier"
+            }
+          ]
+        },
+        {
+          "function": "compound",
+          "tags": [
+            {
+              "name": "Base",
+              "function": "double",
+              "value": "150.0~150.0"
+            },
+            {
+              "name": "Name",
+              "function": "string",
+              "value": "generic.maxHealth"
+            }
+          ]
+        },
+        {
+          "function": "compound",
+          "tags": [
+            {
+              "name": "Base",
+              "function": "double",
+              "value": "0.0~0.0"
+            },
+            {
+              "name": "Name",
+              "function": "string",
+              "value": "generic.knockbackResistance"
+            }
+          ]
+        },
+        {
+          "function": "compound",
+          "tags": [
+            {
+              "name": "Base",
+              "function": "double",
+              "value": "0.25~0.25"
+            },
+            {
+              "name": "Name",
+              "function": "string",
+              "value": "generic.movementSpeed"
+            }
+          ]
+        },
+        {
+          "function": "compound",
+          "tags": [
+            {
+              "name": "Base",
+              "function": "double",
+              "value": "16.0~16.0"
+            },
+            {
+              "name": "Name",
+              "function": "string",
+              "value": "generic.followRange"
+            }
+          ]
+        },
+        {
+          "function": "compound",
+          "tags": [
+            {
+              "name": "Base",
+              "function": "double",
+              "value": "20.0~20.0"
+            },
+            {
+              "name": "Name",
+              "function": "string",
+              "value": "generic.attackDamage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Invulnerable",
+      "function": "byte",
+      "value": "0~0"
+    },
+    {
+      "name": "BookshelfData",
+      "function": "compound",
+      "tags": [
+        {
+          "name": "BookshelfBuff",
+          "function": "list",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "PortalCooldown",
+      "function": "int",
+      "value": "0~0"
+    },
+    {
+      "name": "magicXP",
+      "function": "float",
+      "value": "0.0~0.0"
+    },
+    {
+      "name": "AbsorptionAmount",
+      "function": "float",
+      "value": "0.0~0.0"
+    },
+    {
+      "name": "FallDistance",
+      "function": "float",
+      "value": "0.0~0.0"
+    },
+    {
+      "name": "InLove",
+      "function": "int",
+      "value": "0~0"
+    },
+    {
+      "name": "DeathTime",
+      "function": "short",
+      "value": "0~0"
+    },
+    {
+      "name": "DropChances",
+      "function": "list",
+      "tags": [
+        {
+          "function": "float",
+          "value": "0.085~0.085"
+        },
+        {
+          "function": "float",
+          "value": "0.085~0.085"
+        },
+        {
+          "function": "float",
+          "value": "0.085~0.085"
+        },
+        {
+          "function": "float",
+          "value": "0.085~0.085"
+        },
+        {
+          "function": "float",
+          "value": "0.085~0.085"
+        }
+      ]
+    },
+    {
+      "name": "PersistenceRequired",
+      "function": "byte",
+      "value": "0~0"
+    },
+    {
+      "name": "HealF",
+      "function": "float",
+      "value": "150.0~150.0"
+    },
+    {
+      "name": "amuletSlots",
+      "function": "int",
+      "value": "1~1"
+    },
+    {
+      "name": "magicLevel",
+      "function": "short",
+      "value": "1~1"
+    },
+    {
+      "name": "Age",
+      "function": "int",
+      "value": "0~0"
+    },
+    {
+      "name": "Motion",
+      "function": "list",
+      "tags": [
+        {
+          "function": "double",
+          "value": "0.0~0.0"
+        },
+        {
+          "function": "double",
+          "value": "-0.0784000015258789~-0.0784000015258789"
+        },
+        {
+          "function": "double",
+          "value": "0.0~0.0"
+        }
+      ]
+    },
+    {
+      "name": "Leashed",
+      "function": "byte",
+      "value": "0~0"
+    },
+    {
+      "name": "Health",
+      "function": "short",
+      "value": "150~150"
+    },
+    {
+      "name": "curFatigue",
+      "function": "float",
+      "value": "0.0~0.0"
+    },
+    {
+      "name": "equipment",
+      "function": "list",
+      "tags": []
+    },
+    {
+      "name": "armorCooldowns",
+      "function": "int_array",
+      "value": [
+        "0~0",
+        "0~0",
+        "0~0",
+        "0~0"
+      ]
+    },
+    {
+      "name": "Air",
+      "function": "short",
+      "value": "300~300"
+    },
+    {
+      "name": "OnGround",
+      "function": "byte",
+      "value": "1~1"
+    },
+    {
+      "name": "Rotation",
+      "function": "list",
+      "tags": [
+        {
+          "function": "float",
+          "value": "103.479645~103.479645"
+        },
+        {
+          "function": "float",
+          "value": "0.0~0.0"
+        }
+      ]
+    },
+    {
+      "name": "OwnerUUID",
+      "function": "string",
+      "value": ""
+    },
+    {
+      "name": "gems",
+      "function": "list",
+      "tags": []
+    },
+    {
+      "name": "Equipment",
+      "function": "list",
+      "tags": [
+        {
+          "function": "compound",
+          "tags": []
+        },
+        {
+          "function": "compound",
+          "tags": []
+        },
+        {
+          "function": "compound",
+          "tags": []
+        },
+        {
+          "function": "compound",
+          "tags": []
+        },
+        {
+          "function": "compound",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "CustomName",
+      "function": "string",
+      "value": ""
+    },
+    {
+      "name": "Pos",
+      "function": "list",
+      "tags": [
+        {
+          "function": "double",
+          "value": "0.0~0.0"
+        },
+        {
+          "function": "double",
+          "value": "0.0~0.0"
+        },
+        {
+          "function": "double",
+          "value": "0.0~0.0"
+        }
+      ]
+    },
+    {
+      "name": "Fire",
+      "function": "short",
+      "value": "-3~-3"
+    },
+    {
+      "name": "hasUnlockedAugmented",
+      "function": "byte",
+      "value": "1~1"
+    },
+    {
+      "name": "CanPickUpLoot",
+      "function": "byte",
+      "value": "0~0"
+    },
+    {
+      "name": "isCritical",
+      "function": "byte",
+      "value": "0~0"
+    },
+    {
+      "name": "time",
+      "function": "int",
+      "value": "0~0"
+    },
+    {
+      "name": "HurtTime",
+      "function": "short",
+      "value": "0~0"
+    },
+    {
+      "name": "curMana",
+      "function": "float",
+      "value": "100.0~100.0"
+    },
+    {
+      "name": "AttackTime",
+      "function": "short",
+      "value": "0~0"
+    },
+    {
+      "name": "CustomNameVisible",
+      "function": "byte",
+      "value": "0~0"
+    }
+  ]
+}
