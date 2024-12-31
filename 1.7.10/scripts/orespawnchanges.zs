@@ -6,6 +6,10 @@ var poppy = <minecraft:red_flower>;
 #removerecipes
 //recipes.removeShaped(NetherStar,[[null,<minecraft:netherbrick>,null],[<minecraft:netherbrick>,<minecraft:diamond_block>,<minecraft:netherbrick>],[null,<minecraft:netherbrick>,null]]);
 recipes.removeShaped(<OreSpawn:OreSpawn_RoseSword>);
+recipes.removeShapeless(<OreSpawn:OreSpawn_AppleSeed>);
+recipes.removeShapeless(<OreSpawn:OreSpawn_InstantGarden>);
+recipes.removeShapeless(<OreSpawn:OreSpawn_InstantShelter>);
+recipes.removeShaped(<OreSpawn:OreSpawn_Sifter>);
 
 #shapeless
 //recipes.addShapeless(<minecraft:nether_star>, [<customthings:item:13>,<customthings:item:13>,<customthings:item:13>,<customthings:item:13>,<customthings:item:13>,<customthings:item:13>,<customthings:item:13>,<customthings:item:13>,<customthings:item:13>]);
@@ -22,3 +26,7 @@ recipes.addShaped(<OreSpawn:OreSpawn_RedAntEgg>*2,[[null,<ActuallyAdditions:diam
 recipes.addShaped(<OreSpawn:OreSpawn_TermiteEgg>*2,[[null,<mopickaxes:glass_pickaxe>,null],[<minecraft:glass>,chaoticCore,<minecraft:glass>],[null,<minecraft:glass_bottle>,null]]);
 recipes.addShaped(<OreSpawn:OreSpawn_RoseSword>,[[poppy,<Botania:rune:2>,poppy],[poppy,<Botania:rune>,poppy],[null,<ore:stickWood>,null]]);
 recipes.addShaped(<OreSpawn:OreSpawn_TermiteEgg>,[[<OreSpawn:OreSpawn_OreCrystalStoneBlock>,<OreSpawn:OreSpawn_CrystalTreeLog>,<OreSpawn:OreSpawn_OreCrystalStoneBlock>],[<OreSpawn:OreSpawn_CrystalTreeLog>,<OreSpawn:OreSpawn_CrystalStonePickaxe>,<OreSpawn:OreSpawn_CrystalTreeLog>],[<OreSpawn:OreSpawn_OreCrystalStoneBlock>,<OreSpawn:OreSpawn_CrystalTreeLog>,<OreSpawn:OreSpawn_OreCrystalStoneBlock>]]);
+
+
+#implosionCompressor from techreborn
+mods.techreborn.implosionCompressor.addRecipe(<OreSpawn:OreSpawn_UraniumNugget>,null, <NuclearCraft:material:29>, <DraconicEvolution:chaosFragment>,100000, 1000);

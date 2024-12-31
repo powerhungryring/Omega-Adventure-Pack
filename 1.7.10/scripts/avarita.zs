@@ -2,8 +2,6 @@
 
 #removed
 mods.avaritia.Compressor.remove(<aobd:singularitySteel>);
-mods.avaritia.Compressor.remove(<aobd:singularityPlutonium>);
-recipes.removeShaped(<aobd:blockPlutonium>);
 recipes.removeShaped(<eternalsingularity:combined_singularity:6>);
 recipes.removeShaped(<eternalsingularity:combined_singularity:5>);
 
