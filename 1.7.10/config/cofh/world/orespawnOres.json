@@ -1,0 +1,37 @@
+{
+    "TitaniumOre": {
+        "template": "uniform",
+        "block": "OreSpawn:OreSpawn_OreTitaniumBlock",
+        "clusterSize": 5,
+        "numClusters": 10,
+        "minHeight": 1,
+        "maxHeight": 30,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+		54
+        ]
+    },
+	"UraniumOre": {
+        "template": "uniform",
+        "block": "OreSpawn:OreSpawn_OreUraniumBlock",
+        "clusterSize": 5,
+        "numClusters": 10,
+        "minHeight": 1,
+        "maxHeight": 30,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+		54
+        ]
+    }
+	
+}

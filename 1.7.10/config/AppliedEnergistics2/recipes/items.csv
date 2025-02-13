@@ -1003,7 +1003,7 @@ EnhancedArmors:SilverChest, Enhanced Iron Body
 EnhancedArmors:SilverLegs, Enhanced Iron Leggins
 EnhancedArmors:SilverBoots, Enhanced Iron Boots
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quantum Energy Device)
+ExtraUtilities:endConstructor:0, QED (Quantum Entity Device)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -7585,6 +7585,7 @@ ArchitectureCraft:shape, Architectural Block
 Aroma1997sDimension:aromicPortal, Mining Portal
 Aroma1997sDimension:portalFrame, Portal Frame
 Aroma1997sDimension:stickyOre, Sticky Ore
+aura:magicRoad, Traveler's Bricks
 aura:consumerBlockfurnace, Cascading Smelter
 aura:consumerBlockplant, Cascading Grower
 aura:consumerBlockore, Cascading Processor
@@ -7599,6 +7600,9 @@ aura:consumerBlockoreAdv, Prismatic Processor
 aura:consumerBlockminer, Cascading Miner
 aura:consumerBlockfish, Cascading Fisher
 aura:consumerBlockend, Ritual of the End
+aura:fairyTorch, tile.fairyTorch.name
+aura:trampoline, Rebounding Enigma
+aura:storageBookshelf, Storage Bookshelf
 aura:auraNode, Aura Node
 aura:auraNodepump, Burning Aura Pump
 aura:auraNodeblack, Aura Manipulator: Black
@@ -7618,18 +7622,14 @@ aura:auraNodepumpCreative, Creative Pump (Creative Only)
 aura:auraNodepumpLightAlt, Alternating Illumination Aura Pump
 aura:auraNodepumpRedstoneAlt, Alternating Redstone Aura Pump
 aura:auraNodeflux, Fluxing Node
-aura:magicRoad, Traveler's Bricks
+aura:storageBookshelfCoordinator, Bookshelf Coordinator
+aura:monitor, Monitor
 aura:fortifiedDirt, Fortified Dirt
 aura:fortifiedWood, Fortified Planks
 aura:fortifiedGlass, Fortified Glass
 aura:fortifiedCobblestone, Fortified Cobblestone
 aura:fortifiedStone, Fortified Stone
 aura:fortifiedObsidian, Fortified Obsidian
-aura:monitor, Monitor
-aura:storageBookshelf, Storage Bookshelf
-aura:trampoline, Rebounding Enigma
-aura:fairyTorch, tile.fairyTorch.name
-aura:storageBookshelfCoordinator, Bookshelf Coordinator
 Automagy:blockRedcrystal, Redcrystal
 Automagy:blockRedcrystalAmp, Amplified Redcrystal
 Automagy:blockRedcrystalDim, Dim Redcrystal
@@ -8652,22 +8652,21 @@ BioCristals:blockReplacerOpen, tile.BioCristals_blockReplacerOpen.name
 BioCristals:blockTokenAssembler, Token Assembler
 BioCristals:blockSacrificePit, Sacrifice Pit
 BioCristals:blockLightGoo, tile.BioCristals_blockLightGoo.name
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:dislocator, Transvector Dislocator
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
-ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
-ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
-ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:interface, Transvector Interface
-ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:fireOrder, Ordo Imbued Fire
-ThaumicTinkerer:aspectAnalyzer, Aspectalyzer
-ThaumicTinkerer:enchanter, Osmotic Enchanter
-ThaumicTinkerer:platform, Ethereal Platform
 ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
-ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
-ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:magnet:0, Kinetic Attractor
+ThaumicTinkerer:magnet:1, Corporeal Attractor
+ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:golemConnector, Golem Connector
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:fireOrder, Ordo Imbued Fire
+ThaumicTinkerer:funnel, Essentia Funnel
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:repairer, Thaumic Restorer
 Aroma1997Core:wrench, Aromic Hammer
 ImmibisMicroblocks:immibis.microblocksaw, Hacksaw
 ItemBlacklist:blacklisted, item.blacklisted.name
@@ -10806,10 +10805,10 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Copper
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Tin
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Bronze
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Biomass
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Smokey Quartz
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Smokey Quartz Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pillar Smokey Quartz Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Star Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Planks
@@ -14001,13 +14000,13 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Silver Warning
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Platinum Warning
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Brass Warning
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Electrum Warning
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Coal Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Platinum Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.hey.name
 appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.nyan.name
 appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.pattern.name
 appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.yellowGlow.name
 appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.whiteGlass.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Platinum Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Copper Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tin Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Lead Ore
@@ -26554,24 +26553,25 @@ BioCristals:chitinBoots:0, Chitin Boots
 BioCristals:chitinBoots:0, Chitin Boots
 BioCristals:chitinBoots:0, Chitin Boots
 BioCristals:chitinBoots:0, Chitin Boots
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
-ThaumicTinkerer:forcefield, Forcefield
-ThaumicTinkerer:warpGate, Celestial Gateway
-ThaumicTinkerer:magnet:0, Kinetic Attractor
-ThaumicTinkerer:magnet:1, Corporeal Attractor
-ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
-ThaumicTinkerer:repairer, Thaumic Restorer
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
-ThaumicTinkerer:fireAir, Aer Imbued Fire
 ThaumicTinkerer:fireFire, Ignis Imbued Fire
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
-ThaumicTinkerer:golemConnector, Golem Connector
 ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
-ThaumicTinkerer:funnel, Essentia Funnel
+ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:aspectAnalyzer, Aspectalyzer
+ThaumicTinkerer:enchanter, Osmotic Enchanter
+ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
+ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
+ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
+ThaumicTinkerer:fireAir, Aer Imbued Fire
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
+ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
+ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
+ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
+ThaumicTinkerer:warpGate, Celestial Gateway
 ForbiddenMagic:NetherShard:0, Wrath Shard
 ForbiddenMagic:NetherShard:1, Envy Shard
 ForbiddenMagic:NetherShard:2, Taint Shard
@@ -31185,33 +31185,33 @@ DefenseTech:poisonPowder, Poison Powder
 DefenseTech:antidote, Antidote
 DefenseTech:signalDisrupter, Signal Disrupter
 DefenseTech:tracker, Tracker
-DefenseTech:missile:9, Contagious Missile
-DefenseTech:missile:26, Cluster Missile
-DefenseTech:missile:23, Missile Module
-DefenseTech:missile:13, Thermobaric Missile
-DefenseTech:missile:4, Chemical Missile
-DefenseTech:missile:11, Breaching Missile
-DefenseTech:missile:20, Hypersonic Missile
-DefenseTech:missile:15, Nuclear Missile
-DefenseTech:missile:19, Anti-Gravitational Missile
-DefenseTech:missile:21, Antimatter Missile
-DefenseTech:missile:1, Shrapnel Missile
-DefenseTech:missile:3, Debilitation Missile
-DefenseTech:missile:27, Nuclear Cluster Missile
-DefenseTech:missile:25, Anti-Ballistic Missile
-DefenseTech:missile:6, Repulsive Missile
-DefenseTech:missile:0, Conventional Missile
-DefenseTech:missile:22, Red Matter Missile
-DefenseTech:missile:16, EMP Missile
-DefenseTech:missile:2, Incendiary Missile
-DefenseTech:missile:12, Rejuvenation Missile
-DefenseTech:missile:10, Sonic Missile
-DefenseTech:missile:8, Fragmentation Missile
-DefenseTech:missile:24, Homing Missile
-DefenseTech:missile:5, Anvil Missile
-DefenseTech:missile:7, Attractive Missile
 DefenseTech:missile:17, Exothermic Missile
+DefenseTech:missile:2, Incendiary Missile
+DefenseTech:missile:26, Cluster Missile
+DefenseTech:missile:4, Chemical Missile
+DefenseTech:missile:25, Anti-Ballistic Missile
+DefenseTech:missile:5, Anvil Missile
+DefenseTech:missile:12, Rejuvenation Missile
+DefenseTech:missile:15, Nuclear Missile
+DefenseTech:missile:27, Nuclear Cluster Missile
+DefenseTech:missile:23, Missile Module
+DefenseTech:missile:3, Debilitation Missile
+DefenseTech:missile:22, Red Matter Missile
+DefenseTech:missile:13, Thermobaric Missile
+DefenseTech:missile:7, Attractive Missile
+DefenseTech:missile:21, Antimatter Missile
+DefenseTech:missile:8, Fragmentation Missile
+DefenseTech:missile:6, Repulsive Missile
+DefenseTech:missile:19, Anti-Gravitational Missile
+DefenseTech:missile:20, Hypersonic Missile
+DefenseTech:missile:9, Contagious Missile
+DefenseTech:missile:16, EMP Missile
 DefenseTech:missile:18, Endothermic Missile
+DefenseTech:missile:1, Shrapnel Missile
+DefenseTech:missile:0, Conventional Missile
+DefenseTech:missile:10, Sonic Missile
+DefenseTech:missile:11, Breaching Missile
+DefenseTech:missile:24, Homing Missile
 DefenseTech:defuser, High-Tech Bomb Defusing Device
 DefenseTech:radarGun, Radar Gun
 DefenseTech:remoteDetonator, Remote Detonator
@@ -43071,39 +43071,6 @@ mffs:moduleSpeed, Speed Module
 mffs:moduleTranslate, Translation Module
 mffs:moduleSponge, Sponge Module
 mffs:remoteController, Remote Controller
-NetherOres:tile.netherores.ore.0:0, Nether Coal Ore
-NetherOres:tile.netherores.ore.0:1, Nether Diamond Ore
-NetherOres:tile.netherores.ore.0:2, Nether Gold Ore
-NetherOres:tile.netherores.ore.0:3, Nether Iron Ore
-NetherOres:tile.netherores.ore.0:4, Nether Lapis Ore
-NetherOres:tile.netherores.ore.0:5, Nether Redstone Ore
-NetherOres:tile.netherores.ore.0:6, Nether Copper Ore
-NetherOres:tile.netherores.ore.0:7, Nether Tin Ore
-NetherOres:tile.netherores.ore.0:8, Nether Emerald Ore
-NetherOres:tile.netherores.ore.0:9, Nether Silver Ore
-NetherOres:tile.netherores.ore.0:10, Nether Lead Ore
-NetherOres:tile.netherores.ore.0:11, Nether Uranium Ore
-NetherOres:tile.netherores.ore.0:12, Nether Nikolite Ore
-NetherOres:tile.netherores.ore.0:13, Nether Ruby Ore
-NetherOres:tile.netherores.ore.0:14, Nether Peridot Ore
-NetherOres:tile.netherores.ore.0:15, Nether Sapphire Ore
-NetherOres:tile.netherores.ore.1:0, Nether Platinum Ore
-NetherOres:tile.netherores.ore.1:1, Nether Ferrous Ore
-NetherOres:tile.netherores.ore.1:2, Nether Pig Iron Ore
-NetherOres:tile.netherores.ore.1:3, Nether Iridium Ore
-NetherOres:tile.netherores.ore.1:4, Nether Osmium Ore
-NetherOres:tile.netherores.ore.1:5, Nether Sulfur Ore
-NetherOres:tile.netherores.ore.1:6, Nether Titanium Ore
-NetherOres:tile.netherores.ore.1:7, Nether Mithril Ore
-NetherOres:tile.netherores.ore.1:8, Nether Adamantium Ore
-NetherOres:tile.netherores.ore.1:9, Nether Rutile Ore
-NetherOres:tile.netherores.ore.1:10, Nether Tungsten Ore
-NetherOres:tile.netherores.ore.1:11, Nether Amber Ore
-NetherOres:tile.netherores.ore.1:12, Nether Tennantite Ore
-NetherOres:tile.netherores.ore.1:13, Nether Salt Ore
-NetherOres:tile.netherores.ore.1:14, Nether Saltpeter Ore
-NetherOres:tile.netherores.ore.1:15, Nether Magnesium Ore
-NetherOres:netherOresBlockHellfish, tile.netherores.hellfish.name
 mopickaxes:mossy_pickaxe, Mossy Pickaxe
 mopickaxes:gravel_pickaxe, Gravel Pickaxe
 mopickaxes:sandstone_pickaxe, Sandstone Pickaxe
@@ -43432,6 +43399,39 @@ MutantCreatures:item.skeleArmorHead, Mutant Skeleton Helmet
 MutantCreatures:item.skeleArmorChest, Mutant Skeleton Chestplate
 MutantCreatures:item.skeleArmorLegs, Mutant Skeleton Leggings
 MutantCreatures:item.skeleArmorBoots, Mutant Skeleton Boots
+NetherOres:tile.netherores.ore.0:0, Nether Coal Ore
+NetherOres:tile.netherores.ore.0:1, Nether Diamond Ore
+NetherOres:tile.netherores.ore.0:2, Nether Gold Ore
+NetherOres:tile.netherores.ore.0:3, Nether Iron Ore
+NetherOres:tile.netherores.ore.0:4, Nether Lapis Ore
+NetherOres:tile.netherores.ore.0:5, Nether Redstone Ore
+NetherOres:tile.netherores.ore.0:6, Nether Copper Ore
+NetherOres:tile.netherores.ore.0:7, Nether Tin Ore
+NetherOres:tile.netherores.ore.0:8, Nether Emerald Ore
+NetherOres:tile.netherores.ore.0:9, Nether Silver Ore
+NetherOres:tile.netherores.ore.0:10, Nether Lead Ore
+NetherOres:tile.netherores.ore.0:11, Nether Uranium Ore
+NetherOres:tile.netherores.ore.0:12, Nether Nikolite Ore
+NetherOres:tile.netherores.ore.0:13, Nether Ruby Ore
+NetherOres:tile.netherores.ore.0:14, Nether Peridot Ore
+NetherOres:tile.netherores.ore.0:15, Nether Sapphire Ore
+NetherOres:tile.netherores.ore.1:0, Nether Platinum Ore
+NetherOres:tile.netherores.ore.1:1, Nether Ferrous Ore
+NetherOres:tile.netherores.ore.1:2, Nether Pig Iron Ore
+NetherOres:tile.netherores.ore.1:3, Nether Iridium Ore
+NetherOres:tile.netherores.ore.1:4, Nether Osmium Ore
+NetherOres:tile.netherores.ore.1:5, Nether Sulfur Ore
+NetherOres:tile.netherores.ore.1:6, Nether Titanium Ore
+NetherOres:tile.netherores.ore.1:7, Nether Mithril Ore
+NetherOres:tile.netherores.ore.1:8, Nether Adamantium Ore
+NetherOres:tile.netherores.ore.1:9, Nether Rutile Ore
+NetherOres:tile.netherores.ore.1:10, Nether Tungsten Ore
+NetherOres:tile.netherores.ore.1:11, Nether Amber Ore
+NetherOres:tile.netherores.ore.1:12, Nether Tennantite Ore
+NetherOres:tile.netherores.ore.1:13, Nether Salt Ore
+NetherOres:tile.netherores.ore.1:14, Nether Saltpeter Ore
+NetherOres:tile.netherores.ore.1:15, Nether Magnesium Ore
+NetherOres:netherOresBlockHellfish, tile.netherores.hellfish.name
 NuclearCraft:liquidHeliumBlock, Liquid Helium
 NuclearCraft:fusionPlasmaBlock, Fusion Plasma
 NuclearCraft:steamBlock, Steam
@@ -44246,12 +44246,12 @@ openmodularturrets:teleporterTurret, Teleporter Turret
 openmodularturrets:laserTurret, Laser Turret
 openmodularturrets:railGunTurret, Rail Gun Turret
 openmodularturrets:leverBlock, Basic Turret Base Crank
-OpenPeripheral:peripheralproxy, Peripheral Proxy
 OpenPeripheral:glassesbridge, Terminal Glasses Bridge
 OpenPeripheral:pim, PIM
 OpenPeripheral:sensor, Sensor
 OpenPeripheral:selector, Item Selector
 OpenPeripheral:ticketmachine, Ticket Machine
+OpenPeripheral:peripheralproxy, Peripheral Proxy
 OpenPeripheral:glasses:0, Terminal Glasses
 OpenPeripheral:keyboard, Wireless Keyboard
 OpenPeripheral:generic:0, Duck Antenna
@@ -52938,15 +52938,15 @@ ThermalDynamics:cover:0, Mining Portal Cover
 ThermalDynamics:cover:0, Portal Frame Cover
 ThermalDynamics:cover:0, Sticky Ore Cover
 ThermalDynamics:cover:0, Traveler's Bricks Cover
+ThermalDynamics:cover:0, tile.fairyTorch.name Cover
+ThermalDynamics:cover:0, Rebounding Enigma Cover
+ThermalDynamics:cover:0, Monitor Cover
 ThermalDynamics:cover:0, Fortified Dirt Cover
 ThermalDynamics:cover:0, Fortified Planks Cover
 ThermalDynamics:cover:0, Fortified Glass Cover
 ThermalDynamics:cover:0, Fortified Cobblestone Cover
 ThermalDynamics:cover:0, Fortified Stone Cover
 ThermalDynamics:cover:0, Fortified Obsidian Cover
-ThermalDynamics:cover:0, Monitor Cover
-ThermalDynamics:cover:0, Rebounding Enigma Cover
-ThermalDynamics:cover:0, tile.fairyTorch.name Cover
 ThermalDynamics:cover:0, Essentia Aggregator Cover
 ThermalDynamics:cover:0, Enchanting Bookshelf Cover
 ThermalDynamics:cover:0, Ensorcelled Bookshelf Cover
@@ -53146,22 +53146,22 @@ ThermalDynamics:cover:0, tile.BioCristals_crootSapling.name Cover
 ThermalDynamics:cover:0, tile.BioCristals_fluidBlood.name Cover
 ThermalDynamics:cover:0, tile.BioCristals_blockCrootNest.name Cover
 ThermalDynamics:cover:0, tile.BioCristals_blockLightGoo.name Cover
+ThermalDynamics:cover:0, tile.nitorGas.name Cover
+ThermalDynamics:cover:0, Ordo Imbued Fire Cover
+ThermalDynamics:cover:0, Perditio Imbued Fire Cover
+ThermalDynamics:cover:0, Aqua Imbued Fire Cover
+ThermalDynamics:cover:0, Ignis Imbued Fire Cover
+ThermalDynamics:cover:0, tile.gaseousLight.name Cover
+ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
+ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, Aer Imbued Fire Cover
+ThermalDynamics:cover:0, Bedrock Portal Cover
 ThermalDynamics:cover:0, Terra Imbued Fire Cover
 ThermalDynamics:cover:0, Block of Smokey Quartz Cover
 ThermalDynamics:cover:0, Chiseled Smokey Quartz Block Cover
 ThermalDynamics:cover:0, Pillar Smokey Quartz Block Cover
-ThermalDynamics:cover:0, Ordo Imbued Fire Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, Bedrock Portal Cover
-ThermalDynamics:cover:0, Aqua Imbued Fire Cover
-ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
-ThermalDynamics:cover:0, Perditio Imbued Fire Cover
-ThermalDynamics:cover:0, tile.nitorGas.name Cover
-ThermalDynamics:cover:0, Aer Imbued Fire Cover
-ThermalDynamics:cover:0, Ignis Imbued Fire Cover
-ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
-ThermalDynamics:cover:0, tile.gaseousLight.name Cover
 ThermalDynamics:cover:0, Thaumic Cake Cover
 ThermalDynamics:cover:0, Umbral Rose Cover
 ThermalDynamics:cover:0, Nether Star Block Cover
@@ -57673,39 +57673,6 @@ ThermalDynamics:cover:0, Silver Window Cover
 ThermalDynamics:cover:0, Platinum Window Cover
 ThermalDynamics:cover:0, Brass Window Cover
 ThermalDynamics:cover:0, Electrum Window Cover
-ThermalDynamics:cover:0, Nether Coal Ore Cover
-ThermalDynamics:cover:0, Nether Diamond Ore Cover
-ThermalDynamics:cover:0, Nether Gold Ore Cover
-ThermalDynamics:cover:0, Nether Iron Ore Cover
-ThermalDynamics:cover:0, Nether Lapis Ore Cover
-ThermalDynamics:cover:0, Nether Redstone Ore Cover
-ThermalDynamics:cover:0, Nether Copper Ore Cover
-ThermalDynamics:cover:0, Nether Tin Ore Cover
-ThermalDynamics:cover:0, Nether Emerald Ore Cover
-ThermalDynamics:cover:0, Nether Silver Ore Cover
-ThermalDynamics:cover:0, Nether Lead Ore Cover
-ThermalDynamics:cover:0, Nether Uranium Ore Cover
-ThermalDynamics:cover:0, Nether Nikolite Ore Cover
-ThermalDynamics:cover:0, Nether Ruby Ore Cover
-ThermalDynamics:cover:0, Nether Peridot Ore Cover
-ThermalDynamics:cover:0, Nether Sapphire Ore Cover
-ThermalDynamics:cover:0, Nether Platinum Ore Cover
-ThermalDynamics:cover:0, Nether Ferrous Ore Cover
-ThermalDynamics:cover:0, Nether Pig Iron Ore Cover
-ThermalDynamics:cover:0, Nether Iridium Ore Cover
-ThermalDynamics:cover:0, Nether Osmium Ore Cover
-ThermalDynamics:cover:0, Nether Sulfur Ore Cover
-ThermalDynamics:cover:0, Nether Titanium Ore Cover
-ThermalDynamics:cover:0, Nether Mithril Ore Cover
-ThermalDynamics:cover:0, Nether Adamantium Ore Cover
-ThermalDynamics:cover:0, Nether Rutile Ore Cover
-ThermalDynamics:cover:0, Nether Tungsten Ore Cover
-ThermalDynamics:cover:0, Nether Amber Ore Cover
-ThermalDynamics:cover:0, Nether Tennantite Ore Cover
-ThermalDynamics:cover:0, Nether Salt Ore Cover
-ThermalDynamics:cover:0, Nether Saltpeter Ore Cover
-ThermalDynamics:cover:0, Nether Magnesium Ore Cover
-ThermalDynamics:cover:0, Netherrack Cover
 ThermalDynamics:cover:0, Comparator Track Cover
 ThermalDynamics:cover:0, tile.lampon.name Cover
 ThermalDynamics:cover:0, tile.lampoff.name Cover
@@ -57742,6 +57709,39 @@ ThermalDynamics:cover:0, tile.nyan.name Cover
 ThermalDynamics:cover:0, tile.pattern.name Cover
 ThermalDynamics:cover:0, tile.yellowGlow.name Cover
 ThermalDynamics:cover:0, tile.whiteGlass.name Cover
+ThermalDynamics:cover:0, Nether Coal Ore Cover
+ThermalDynamics:cover:0, Nether Diamond Ore Cover
+ThermalDynamics:cover:0, Nether Gold Ore Cover
+ThermalDynamics:cover:0, Nether Iron Ore Cover
+ThermalDynamics:cover:0, Nether Lapis Ore Cover
+ThermalDynamics:cover:0, Nether Redstone Ore Cover
+ThermalDynamics:cover:0, Nether Copper Ore Cover
+ThermalDynamics:cover:0, Nether Tin Ore Cover
+ThermalDynamics:cover:0, Nether Emerald Ore Cover
+ThermalDynamics:cover:0, Nether Silver Ore Cover
+ThermalDynamics:cover:0, Nether Lead Ore Cover
+ThermalDynamics:cover:0, Nether Uranium Ore Cover
+ThermalDynamics:cover:0, Nether Nikolite Ore Cover
+ThermalDynamics:cover:0, Nether Ruby Ore Cover
+ThermalDynamics:cover:0, Nether Peridot Ore Cover
+ThermalDynamics:cover:0, Nether Sapphire Ore Cover
+ThermalDynamics:cover:0, Nether Platinum Ore Cover
+ThermalDynamics:cover:0, Nether Ferrous Ore Cover
+ThermalDynamics:cover:0, Nether Pig Iron Ore Cover
+ThermalDynamics:cover:0, Nether Iridium Ore Cover
+ThermalDynamics:cover:0, Nether Osmium Ore Cover
+ThermalDynamics:cover:0, Nether Sulfur Ore Cover
+ThermalDynamics:cover:0, Nether Titanium Ore Cover
+ThermalDynamics:cover:0, Nether Mithril Ore Cover
+ThermalDynamics:cover:0, Nether Adamantium Ore Cover
+ThermalDynamics:cover:0, Nether Rutile Ore Cover
+ThermalDynamics:cover:0, Nether Tungsten Ore Cover
+ThermalDynamics:cover:0, Nether Amber Ore Cover
+ThermalDynamics:cover:0, Nether Tennantite Ore Cover
+ThermalDynamics:cover:0, Nether Salt Ore Cover
+ThermalDynamics:cover:0, Nether Saltpeter Ore Cover
+ThermalDynamics:cover:0, Nether Magnesium Ore Cover
+ThermalDynamics:cover:0, Netherrack Cover
 ThermalDynamics:cover:0, Liquid Helium Cover
 ThermalDynamics:cover:0, Fusion Plasma Cover
 ThermalDynamics:cover:0, Steam Cover
@@ -60323,7 +60323,6 @@ WitchingGadgets:WG_MetalDevice:9, Terrestrial Focus: Mushroom Island
 WitchingGadgets:WG_RoseVine, Rose Vines
 WitchingGadgets:WG_CustomAir, Glimmer of Light
 zettaindustries:zettaindustries.fakeitem, Null
-zettaindustries:BlockTelecomunicationConnector,  Telecommunication Connector
 zettaindustries:backpack.creativeT1, Null
 zettaindustries:backpack.creativeT2, Null
 zettaindustries:backpack.engineeringT1, Null
@@ -60333,6 +60332,7 @@ zettaindustries:backpack.opencomputersT2, Null
 zettaindustries:SmartCard, Smart Card [WIP]
 zettaindustries:SmartCardTerminal, Smart Card Terminal [WIP]
 zettaindustries:smartcardterminalblock, Smart Card Terminal [WIP]
+zettaindustries:BlockTelecomunicationConnector,  Telecommunication Connector
 ForgeMicroblock:sawStone, Stone Saw
 ForgeMicroblock:sawIron, Iron Saw
 ForgeMicroblock:sawDiamond, Diamond Saw

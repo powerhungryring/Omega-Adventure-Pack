@@ -850,12 +850,12 @@
       "fluid": [["Schrabidate",648]]
     },
     {
-      "input": ["item","TConstruct:GravelOre",1,1],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
       "input": ["item","hbm:tile.sand_uranium"],
       "solid": ["hbm:tile.glass_uranium"]
+    },
+    {
+      "input": ["item","TConstruct:GravelOre",1,1],
+      "solid": ["minecraft:gold_ingot"]
     },
     {
       "input": ["item","hbm:item.bedrock_ore",1,309],
@@ -870,12 +870,12 @@
       "solid": ["hbm:item.bedrock_ore",4,259]
     },
     {
-      "input": ["item","Calculator:EnrichedGold",1,32767],
-      "solid": ["Calculator:EnrichedGoldIngot"]
-    },
-    {
       "input": ["item","NuclearCraft:blockOre",1,3],
       "solid": ["NuclearCraft:material",1,3]
+    },
+    {
+      "input": ["item","Calculator:EnrichedGold",1,32767],
+      "solid": ["Calculator:EnrichedGoldIngot"]
     },
     {
       "input": ["item","hbm:item.bedrock_ore",1,177],
@@ -922,12 +922,12 @@
       "solid": ["thebetweenlands:unknownGeneric",1,14]
     },
     {
-      "input": ["item","hbm:item.powder_plutonium",1,32767],
-      "solid": ["hbm:item.ingot_plutonium"]
-    },
-    {
       "input": ["item","NuclearCraft:blockOre",1,4],
       "solid": ["NuclearCraft:material",1,4]
+    },
+    {
+      "input": ["item","hbm:item.powder_plutonium",1,32767],
+      "solid": ["hbm:item.ingot_plutonium"]
     },
     {
       "input": ["item","hbm:item.bedrock_ore",1,308],
@@ -1142,12 +1142,12 @@
       "fluid": [["DuraSteel",9]]
     },
     {
-      "input": ["item","hbm:tile.gravel_diamond"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
       "input": ["item","ImmersiveEngineering:metal",1,9],
       "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","hbm:tile.gravel_diamond"],
+      "solid": ["minecraft:diamond"]
     },
     {
       "input": ["item","Mekanism:OreBlock",1,1],
@@ -1210,12 +1210,12 @@
       "solid": ["hbm:item.bedrock_ore",4,320]
     },
     {
-      "input": ["item","minecraft:golden_boots",1,32767],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
       "input": ["item","GalacticraftMars:item.itemBasicAsteroids",1,3],
       "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","minecraft:golden_boots",1,32767],
+      "solid": ["minecraft:gold_ingot"]
     },
     {
       "input": ["item","NuclearCraft:blockOre",1,9],
@@ -2853,12 +2853,12 @@
       "solid": ["hbm:item.ingot_th232"]
     },
     {
-      "input": ["item","hbm:item.arc_electrode_burnt",1,1],
-      "solid": ["hbm:item.ingot_lanthanium"]
-    },
-    {
       "input": ["item","aobd:crushedBoron"],
       "solid": ["hbm:item.ingot_boron"]
+    },
+    {
+      "input": ["item","hbm:item.arc_electrode_burnt",1,1],
+      "solid": ["hbm:item.ingot_lanthanium"]
     },
     {
       "input": ["dict","billetGold198"],
@@ -3066,12 +3066,12 @@
       "solid": ["hbm:item.ingot_boron"]
     },
     {
-      "input": ["item","aobd:dustKnightmetal"],
-      "solid": ["TwilightForest:item.knightMetal"]
-    },
-    {
       "input": ["item","minecraft:iron_helmet",1,32767],
       "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","aobd:dustKnightmetal"],
+      "solid": ["TwilightForest:item.knightMetal"]
     },
     {
       "input": ["dict","dustTinyNiobium"],
