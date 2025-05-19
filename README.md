@@ -36,6 +36,10 @@ Primarily, there are two different ways to set up an Omega Adventure Pack server
 
 Please install Traincraft into the mods folder as this was to big to put onto github https://www.curseforge.com/minecraft/mc-mods/traincraft/download/5083289
 
+## Installing "Hardmode"
+
+At the time of writing this, Hardmode is still a work in progress. However to install you drag the files within the `Overrides/Config` file and the `Overrides/Scripts` file, into the respective folders.
+
   
 
 
